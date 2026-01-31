@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About — Кондратюк Юля</title>
+  <meta name="description" content="О Юле Кондратюк: подход к монтажу, принципы и workflow." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="dot"></span>
+        <span class="stack"><b>Кондратюк Юля</b><span class="mono">manifest</span></span>
+      </a>
+      <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="experience.html">EXPERIENCE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+      <div class="cta">
+        <a class="btn" href="portfolio.html">PORTFOLIO</a>
+        <a class="btn primary" href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <div class="headerline">
+      <div class="timecode" data-timecode>[00:00:00:00]</div>
+      <div class="mono" style="color:var(--muted); font-size:12px;">DOC: ABOUT</div>
+    </div>
+
+    <div class="titleblock">
+      <div>
+        <h1>About</h1>
+        <p class="sub">Коротко, по делу — без “воды”. Подход как у монтажёра: структура → ритм → чистый финал.</p>
+      </div>
+    </div>
+
+    <section class="panel" style="margin-top:14px">
+      <div class="panel-inner">
+        <div class="viewer mono" style="min-height:auto">
+          <div class="kv">
+            <div class="k">MANIFEST</div>
+            <div class="v" style="font-size:14px; color:var(--text); line-height:1.7">
+              I WORK WITH RHYTHM.<br/>
+              I CUT FOR MEANING.<br/>
+              I DELIVER CLEAN FINALS.
+            </div>
+          </div>
+          <div class="kv">
+            <div class="k">WORKFLOW</div>
+            <div class="v">
+              ТЗ → черновик → правки → цвет/звук/графика → экспорт/версии под площадки.
+            </div>
+          </div>
+          <div class="kv">
+            <div class="k">FOCUS</div>
+            <div class="v">
+              Реклама / имидж / digital + опыт в ТВ (высокий темп и эфирные дедлайны).
+            </div>
+          </div>
+        </div>
+
+        <div class="block" style="margin-top:14px">
+          <h2>What you get</h2>
+          <div class="pills">
+            <span class="pill accent">speed without chaos</span>
+            <span class="pill">clear communication</span>
+            <span class="pill">clean sound</span>
+            <span class="pill">consistent exports</span>
+            <span class="pill">versions for platforms</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer mono">
+      <span>© <span id="y"></span> KONDRATYUK YULYA</span>
+      <span>ABOUT DOC</span>
+    </div>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

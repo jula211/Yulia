@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Кондратюк Юля — Video Editor</title>
+  <meta name="description" content="Кондратюк Юля — режиссёр монтажа / Video Editor. Реклама, имидж, digital, ТВ. Цвет, звук, графика, многокамерный монтаж." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="dot"></span>
+        <span class="stack">
+          <b>Кондратюк Юля</b>
+          <span class="mono">video editor • moscow / remote</span>
+        </span>
+      </a>
+
+      <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="experience.html">EXPERIENCE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+
+      <div class="cta">
+        <a class="btn" href="portfolio.html">▶ PLAY</a>
+        <a class="btn primary" href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <div class="headerline">
+      <div class="timecode" data-timecode>[00:00:00:00]</div>
+      <div class="mono" style="color:var(--muted); font-size:12px;">PROJECT: YULYA_KONDRATYUK_EDIT</div>
+    </div>
+
+    <div class="grid">
+      <section class="panel">
+        <div class="panel-inner">
+          <div class="viewer">
+            <div class="viewer-top">
+              <div class="chips">
+                <span class="chip accent">STATUS: AVAILABLE</span>
+                <span class="chip">ROLE: VIDEO EDITOR</span>
+                <span class="chip">WORKFLOW: FULL POST</span>
+              </div>
+              <a class="btn rec" href="portfolio.html">REC → PORTFOLIO</a>
+            </div>
+
+            <div class="viewer-main mono">
+              <div class="kv">
+                <div class="k">FOCUS</div>
+                <div class="v">AD / BRAND / DIGITAL / TV NEWS</div>
+              </div>
+              <div class="kv">
+                <div class="k">TOOLS</div>
+                <div class="v">Premiere Pro • After Effects • DaVinci Resolve • Final Cut • Avid • Photoshop</div>
+              </div>
+              <div class="kv">
+                <div class="k">SKILLS</div>
+                <div class="v">Rhythm • Structure • Clean sound • Color • Titles/Infographics • Multi-cam • Deliverables</div>
+              </div>
+              <div class="kv">
+                <div class="k">PORTFOLIO</div>
+                <div class="v">Yandex Disk folder (link on Portfolio / Contact pages)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline">
+            <div class="tl-row">
+              <div class="mono" style="font-size:12px; color:var(--muted);">TIMELINE</div>
+              <div class="tl-track">
+                <div class="tl-axis"></div>
+
+                <!-- positions are % of track width -->
+                <div class="clip" style="left:4%; width:20%;" data-go="experience.html">
+                  <b>TV</b><span>2017–2019</span>
+                </div>
+                <div class="clip" style="left:26%; width:20%;" data-go="experience.html">
+                  <b>LIVE / ASSIST</b><span>2019–2022</span>
+                </div>
+                <div class="clip" style="left:48%; width:22%;" data-go="experience.html">
+                  <b>PRODUCTION</b><span>2022–2024</span>
+                </div>
+                <div class="clip accent" style="left:72%; width:24%;" data-go="experience.html">
+                  <b>AGENCY → FREELANCE</b><span>2024–NOW</span>
+                </div>
+              </div>
+              <div class="tl-labels">
+                <span>2017</span><span>2019</span><span>2022</span><span>2024</span><span>NOW</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <aside class="side">
+        <div class="block">
+          <h2>Quick tags</h2>
+          <div class="pills">
+            <span class="pill accent">fast deadlines</span>
+            <span class="pill">multi-cam</span>
+            <span class="pill">color</span>
+            <span class="pill">sound</span>
+            <span class="pill">titles / gfx</span>
+            <span class="pill">deliverables</span>
+          </div>
+        </div>
+
+        <div class="block">
+          <h2>One-click</h2>
+          <div style="display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn primary" href="portfolio.html">OPEN PORTFOLIO</a>
+            <a class="btn" href="experience.html">VIEW EXPERIENCE</a>
+          </div>
+        </div>
+
+        <div class="block">
+          <h2>Contacts</h2>
+          <div class="mono" style="font-size:12px; color:var(--muted); line-height:1.7">
+            email: juliakondratuk21@gmail.com<br/>
+            phone: +7 (903) 177-15-68
+          </div>
+          <div style="margin-top:10px; display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn" href="contact.html">OPEN CONTACT SLATE</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <div class="footer mono">
+      <span>© <span id="y"></span> KONDRATYUK YULYA</span>
+      <span>BUILD: STATIC • PAGES: 5</span>
+    </div>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfolio — Кондратюк Юля</title>
+  <meta name="description" content="Портфолио Юли Кондратюк — проекты и форматы." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="dot"></span>
+        <span class="stack"><b>Кондратюк Юля</b><span class="mono">portfolio bin</span></span>
+      </a>
+      <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="experience.html">EXPERIENCE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+      <div class="cta">
+        <a class="btn" href="experience.html">EXPERIENCE</a>
+        <a class="btn primary" href="contact.html">CONTACT</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <div class="headerline">
+      <div class="timecode" data-timecode>[00:00:00:00]</div>
+      <div class="mono" style="color:var(--muted); font-size:12px;">BIN: SELECTS</div>
+    </div>
+
+    <div class="titleblock">
+      <div>
+        <h1>Portfolio</h1>
+        <p class="sub">Список проектов как BIN: кликаешь строку → раскрывается описание. Полная папка работ — по ссылке.</p>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap">
+        <a class="btn primary" target="_blank" rel="noreferrer" href="https://disk.yandex.ru/d/bKxBhLYBASdtug">OPEN YANDEX DISK</a>
+        <button class="btn" data-copy="https://disk.yandex.ru/d/bKxBhLYBASdtug">COPY LINK</button>
+      </div>
+    </div>
+
+    <section class="panel" style="margin-top:14px">
+      <div class="panel-inner">
+        <div class="bin">
+
+          <div class="bin-item" data-bin>
+            <div class="bin-head mono" data-bin-head>
+              <b>▶ AD_01_BRAND_FILM_30s</b>
+              <div class="right">
+                <span class="tag accent">ad</span>
+                <span class="tag">color</span>
+                <span class="tag">deliver</span>
+              </div>
+            </div>
+            <div class="bin-body">
+              Роль: режиссёр монтажа. Задачи: структура, темп, чистка звука, базовая графика, финальный экспорт под площадки. Формат: 16:9 / 1:1 / 9:16 версии.
+            </div>
+          </div>
+
+          <div class="bin-item" data-bin>
+            <div class="bin-head mono" data-bin-head>
+              <b>▶ DIGITAL_CAMPAIGN_9x16</b>
+              <div class="right">
+                <span class="tag accent">digital</span>
+                <span class="tag">fast</span>
+                <span class="tag">versions</span>
+              </div>
+            </div>
+            <div class="bin-body">
+              Серия коротких роликов: быстрый цикл, много правок, версии под разные длительности. Акцент на удержание и ритм.
+            </div>
+          </div>
+
+          <div class="bin-item" data-bin>
+            <div class="bin-head mono" data-bin-head>
+              <b>▶ IMAGE_VIDEO_60s</b>
+              <div class="right">
+                <span class="tag">brand</span>
+                <span class="tag accent">sound</span>
+                <span class="tag">titles</span>
+              </div>
+            </div>
+            <div class="bin-body">
+              Имиджевый ролик: сборка истории, работа со звуком, титры/инфографика, финальный мастер.
+            </div>
+          </div>
+
+          <div class="bin-item" data-bin>
+            <div class="bin-head mono" data-bin-head>
+              <b>▶ MULTICAM_EVENT_CUT</b>
+              <div class="right">
+                <span class="tag accent">multi-cam</span>
+                <span class="tag">sync</span>
+                <span class="tag">deliver</span>
+              </div>
+            </div>
+            <div class="bin-body">
+              Многокамерный монтаж: синхронизация, сборка, чистка, версии для digital.
+            </div>
+          </div>
+
+        </div>
+
+        <div class="small" style="margin-top:14px">
+          Хочешь — я заменю эти строки на реальные названия/ссылки (6–12 лучших роликов) и сделаю кликабельные кнопки “OPEN”.
+        </div>
+      </div>
+    </section>
+
+    <div class="footer mono">
+      <span>© <span id="y"></span> KONDRATYUK YULYA</span>
+      <span>BIN VIEW</span>
+    </div>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>

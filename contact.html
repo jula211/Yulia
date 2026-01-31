@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — Кондратюк Юля</title>
+  <meta name="description" content="Контакты Юли Кондратюк." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="dot"></span>
+        <span class="stack"><b>Кондратюк Юля</b><span class="mono">contact slate</span></span>
+      </a>
+      <nav class="menu">
+        <a href="index.html">HOME</a>
+        <a href="portfolio.html">PORTFOLIO</a>
+        <a href="experience.html">EXPERIENCE</a>
+        <a href="about.html">ABOUT</a>
+        <a href="contact.html">CONTACT</a>
+      </nav>
+      <div class="cta">
+        <a class="btn" href="portfolio.html">PORTFOLIO</a>
+        <a class="btn primary" href="experience.html">EXPERIENCE</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="container page">
+    <div class="headerline">
+      <div class="timecode" data-timecode>[00:00:00:00]</div>
+      <div class="mono" style="color:var(--muted); font-size:12px;">SLATE: CONTACT</div>
+    </div>
+
+    <div class="titleblock">
+      <div>
+        <h1>Contact</h1>
+        <p class="sub">Формат “slate”: быстро скопировать и написать. Если сайт публичный — телефон можно убрать.</p>
+      </div>
+      <div style="display:flex; gap:10px; flex-wrap:wrap">
+        <a class="btn primary" href="mailto:juliakondratuk21@gmail.com?subject=Монтаж%20—%20запрос&body=Здравствуйте,%20Юля!%0A%0AЗадача:%20...%0AФормат:%20...%0AДедлайн:%20...%0AСсылки:%20...%0A">MAIL TEMPLATE</a>
+      </div>
+    </div>
+
+    <section class="panel" style="margin-top:14px">
+      <div class="panel-inner">
+        <div class="slate">
+          <div class="row">
+            <div class="k">MAIL</div>
+            <div class="v mono">juliakondratuk21@gmail.com</div>
+            <button class="btn" data-copy="juliakondratuk21@gmail.com">COPY</button>
+          </div>
+
+          <div class="row">
+            <div class="k">PHONE</div>
+            <div class="v mono">+7 (903) 177-15-68</div>
+            <button class="btn" data-copy="+79031771568">COPY</button>
+          </div>
+
+          <div class="row">
+            <div class="k">PORTF</div>
+            <div class="v mono">disk.yandex.ru/d/bKxBhLYBASdtug</div>
+            <button class="btn" data-copy="https://disk.yandex.ru/d/bKxBhLYBASdtug">COPY</button>
+          </div>
+
+          <div style="margin-top:12px; display:flex; gap:10px; flex-wrap:wrap">
+            <a class="btn primary" target="_blank" rel="noreferrer" href="https://disk.yandex.ru/d/bKxBhLYBASdtug">OPEN PORTFOLIO</a>
+            <a class="btn" href="portfolio.html">BIN VIEW</a>
+          </div>
+
+          <div class="small" style="margin-top:12px">
+            Если хочешь “Public mode”: удалим блок PHONE или заменим на Telegram.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer mono">
+      <span>© <span id="y"></span> KONDRATYUK YULYA</span>
+      <span>CONTACT SLATE</span>
+    </div>
+  </main>
+
+  <script src="assets/js/main.js"></script>
+  <script>document.getElementById("y").textContent = new Date().getFullYear();</script>
+</body>
+</html>
